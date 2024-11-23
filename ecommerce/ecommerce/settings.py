@@ -72,7 +72,7 @@ STATICFILES_DIRS=[os.path.join(BASE_DIR,'static')]
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 MEDIA_URL='/media/'
 WSGI_APPLICATION = 'ecommerce.wsgi.application'
-
+LOGIN_URL="users:login"
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
